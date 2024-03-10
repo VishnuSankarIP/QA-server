@@ -1,0 +1,105 @@
+{
+    "question": [
+        {
+            "id": "1",
+            "ques": "What is the use of webpack command in React.js?",
+            "answerOptions": [
+                { "answer": "The webpack command is used to transpile all the JavaScript down into one file.","isCorrect":false },
+                { "answer": "It runs React local development server","isCorrect":false },
+                { "answer": "It is a module bundler","isCorrect":true },
+                { "answer": "None of the above","isCorrect":false }
+            ]
+        },
+        {
+            "id": "2",
+            "ques": "Which of the following function is called to render HTML to the web page in React?",
+            "answerOptions": [
+                { "answer": "render()","isCorrect":true  },
+                { "answer": "ReactDOM.render()","isCorrect":false },
+                { "answer": "BOTH","isCorrect":false },
+                { "answer": "None of the above" ,"isCorrect":false}
+            ]
+        },
+        {
+            "id": "3",
+            "ques": "Which of the following lifecycle events React components have at the highest level?",
+            "answerOptions": [
+                { "answer": "Destruction" ,"isCorrect":false},
+                { "answer": "Initialization","isCorrect":false },
+                { "answer": "State/Property Updates","isCorrect":false },
+                { "answer": "All of the above","isCorrect":true  }
+            ]
+        },
+        {
+            "id": "4",
+            "ques": "Which of the following best defines the key prop?",
+            "answerOptions": [
+                { "answer": "Key prop is used to look pretty, and there is no benefit whatsoever.","isCorrect":false },
+                { "answer": "Key prop is a way for React to identify a newly added item in a list and compare it during the diffing algorithm.","isCorrect":true  },
+                { "answer": "It is one of the attributes in HTML","isCorrect":false },
+                { "answer": "It is NOT commonly used in an array.","isCorrect":false }
+            ]
+        },
+        {
+            "id": "5",
+            "ques": "Which of the following method is not a part of ReactDOM?",
+            "answerOptions": [
+                { "answer": "ReactDOM.destroy()","isCorrect":true  },
+                { "answer": "ReactDOM.hydrate()","isCorrect":false },
+                { "answer": "ReactDOM.createPortal()","isCorrect":false },
+                { "answer": "ReactDOM.findDOMNode()","isCorrect":false }
+            ]
+        },
+        {
+            "id": "6",
+            "ques": "How can you set a default value for an uncontrolled form field?",
+            "answerOptions": [
+                { "answer": "By using the value property","isCorrect":false },
+                { "answer": "By using the defaultValue property","isCorrect":true  },
+                { "answer": "By using the default property","isCorrect":false },
+                { "answer": "It is assigned automatically","isCorrect":false }
+            ]
+        },
+        {
+            "id": "7",
+            "ques": "We can update the state in React.js by calling to setState() method. These calls are:",
+            "answerOptions": [
+                { "answer": "Synchronous in nature." ,"isCorrect":false},
+                { "answer": "Asynchronous in nature.","isCorrect":true  },
+                { "answer": "Are asynchronous but can be made synchronous when required","isCorrect":false },
+                { "answer": "None of the above" ,"isCorrect":false}
+            ]
+        },
+        {
+            "id": "8",
+            "ques": "Which of the following statement is true for controlled components in React.js?",
+            "answerOptions": [
+                { "answer": "The source of truth is DOM","isCorrect":false },
+                { "answer": "The source of truth can be anything","isCorrect":false },
+                { "answer": "The source of truth is a component state.","isCorrect":true  },
+                { "answer": "None of the above","isCorrect":false }
+            ]
+        },
+        {
+            "id": "9",
+            "ques": "What changes would appear in the component as soon as the state of the React component is changed?",
+            "answerOptions": [
+                { "answer": "It will do nothing; you have to call render method to render the component again","isCorrect":false },
+                { "answer": "It will re-render the component","isCorrect":true  },
+                { "answer": "It can be created again from scratch","isCorrect":false },
+                { "answer": "None of the above","isCorrect":false }
+            ]
+        },
+        {
+            "id": "10",
+            "ques": "Which of the following statement is true for uncontrolled components in React.js?",
+            "answerOptions": [
+                { "answer": "The source of truth is DOM","isCorrect":true  },
+                { "answer": "The source of truth is a component state.","isCorrect":false },
+                { "answer": "The source of truth can be anything","isCorrect":false},
+                { "answer": "None of the above","isCorrect":false }
+            ]
+        }
+    ]
+  }
+  
